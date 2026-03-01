@@ -1,25 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Tactical Combat Preview | Official PC Access</title>
-    <meta name="description" content="Experience next-gen tactical combat. Access the official PC tactical preview now." />
-    <meta name="author" content="Tactical Preview" />
-
-    <meta property="og:title" content="Tactical Combat Preview" />
-    <meta property="og:description" content="Experience next-gen tactical combat crafted for precision and strategy." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
-
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tactical Combat Preview | Official PC Access</title>
+  <meta name="description" content="Experience next-gen tactical combat. Access the official PC tactical preview now." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="hero">
+    <video autoplay muted loop playsinline class="bg-video" src="video.mp4"></video>
+    <div class="overlay"></div>
+    <div class="content">
+      <span class="badge">Official PC Tactical Preview</span>
+      <h1>Dominate Every Engagement.</h1>
+      <p class="subtext">Experience next-gen tactical combat crafted for precision and strategy.</p>
+      <div class="countdown">
+        <span class="countdown-label">Next tactical refresh in:</span>
+        <span id="timer">05:00</span>
+      </div>
+      <a href="http://to.wendiro.com/o?k=98099624c17e486ca92ac5061e7f9b35&via=7155" target="_blank" rel="noopener noreferrer" class="cta">Access Tactical Preview</a>
+      <p class="disclaimer">Gameplay availability may vary by region.</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
 </html>
