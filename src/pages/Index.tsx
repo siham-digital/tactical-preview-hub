@@ -39,12 +39,11 @@ const Index = () => {
 
         {/* Headline */}
         <h1 className="font-display font-900 text-4xl sm:text-5xl md:text-6xl leading-tight text-foreground text-shadow-hero">
-          Dominate the Battlefield.<br />
-          Own Every Engagement.
+          Dominate Every Engagement.
         </h1>
 
         {/* Subtext */}
-        <p className="text-lg sm:text-xl text-secondary-foreground text-shadow-sub max-w-lg">
+        <p className="text-xl sm:text-2xl text-secondary-foreground text-shadow-sub max-w-lg">
           Experience next-gen tactical combat crafted for precision and strategy.
         </p>
 
@@ -54,7 +53,7 @@ const Index = () => {
             Next tactical refresh in:
           </span>
           <span
-            className="font-display text-3xl sm:text-4xl font-bold tracking-widest"
+            className="font-display text-2xl sm:text-3xl font-bold tracking-widest"
             style={{ color: "hsl(var(--timer))" }}
           >
             {mins}:{secs}
@@ -66,7 +65,8 @@ const Index = () => {
           href={CTA_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-block font-display font-bold text-lg sm:text-xl uppercase tracking-wider px-10 py-4 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground cta-glow transition-all duration-300 hover:-translate-y-1 hover:cta-glow-hover animate-[subtle-pulse_3s_ease-in-out_infinite]"
+          className="mt-4 inline-block font-display font-bold text-xl sm:text-2xl uppercase px-14 py-5 rounded-lg bg-gradient-to-r from-primary to-accent text-primary-foreground cta-glow transition-all duration-300 hover:-translate-y-1 hover:cta-glow-hover animate-[cta-breathe_2.8s_ease-in-out_infinite]"
+          style={{ letterSpacing: "0.75px" }}
         >
           Access Tactical Preview
         </a>
