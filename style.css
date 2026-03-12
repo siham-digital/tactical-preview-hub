@@ -77,19 +77,20 @@ h1 {
   margin-top: 0.5rem;
 }
 
-.countdown-label {
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: #7a7a8a;
+.countdown-label{
+font-size:0.85rem;
+text-transform:uppercase;
+letter-spacing:0.18em;
+color:#d0d6db;
+opacity:0.9;
+text-shadow:0 2px 6px rgba(0,0,0,0.7);
 }
 
-#timer {
-  font-family: 'Orbitron', sans-serif;
-  font-size: clamp(1.5rem, 4vw, 1.875rem);
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: hsl(0, 60%, 45%);
+#timer{
+font-size:2rem;
+font-weight:700;
+color:#ff4d4d;
+text-shadow:0 0 12px rgba(255,0,0,0.6);
 }
 
 .cta {
@@ -128,10 +129,12 @@ border-radius:8px;
   box-shadow: 0 0 48px rgba(234,120,20,0.8), 0 0 96px rgba(234,120,20,0.35);
 }
 
-.disclaimer {
-  font-size: 0.75rem;
-  color: #7a7a8a;
-  margin-top: 0.5rem;
+.disclaimer{
+font-size:0.75rem;
+color:#c8ccd0;
+margin-top:0.8rem;
+opacity:0.85;
+text-shadow:0 2px 6px rgba(0,0,0,0.8);
 }
 
 @keyframes cta-breathe {
