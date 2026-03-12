@@ -8,11 +8,14 @@ body {
 }
 
 .hero{
-position: relative;
-min-height: 100vh;
+position:relative;
+min-height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
+text-align:center;
+padding-top:40px;
+padding-bottom:40px;
 overflow:hidden;
 }
 .background-video{
@@ -37,9 +40,16 @@ rgba(0,0,0,0.65)
 );
 }
 .content{
-gap:1.8rem;
 position:relative;
 z-index:2;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+gap:1.6rem;
+max-width:900px;
+margin:auto;
 }
 
 .badge {
@@ -60,6 +70,8 @@ h1 {
   font-size: clamp(2rem, 6vw, 3.75rem);
   line-height: 1.15;
   color: #f2f2f2;
+  text-align:center;
+  margin:auto;
   text-shadow: 0 2px 20px rgba(0,0,0,0.7), 0 0 40px rgba(234,120,20,0.3);
 }
 
